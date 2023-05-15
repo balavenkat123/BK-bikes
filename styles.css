@@ -54,6 +54,7 @@ p {
 }
 .shoppic{
     width: 10%;
+
 }
 
 body {
@@ -242,7 +243,7 @@ body {
 
 
 
-@media (max-width:991px) {
+@media (max-width:799px) {
   .footer-dark .item.social {
     text-align:center;
     margin-top:20px;
@@ -274,4 +275,23 @@ body {
   font-size:13px;
   margin-bottom:0;
 }
-
+@media (max-width:799px){
+  #navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 20vh;
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+  background-color: #d9c2fa;
+  box-shadow: 0 40px 60px rgba(0, 0, 0, 0.2);
+  padding: 80px 0 0 20px;
+}
+#navbar li{
+  margin-bottom: 25px;
+}
+}
