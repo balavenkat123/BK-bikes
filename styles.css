@@ -95,7 +95,7 @@ body {
 #navbar li a:hover{
     color: aqua;
 }
-.container {
+.containerr{
   display: grid;
   align-items: center; 
   grid-template-columns: 1fr 1fr 1fr;
@@ -179,7 +179,7 @@ body {
   width: 26%;
   min-width: 250px;
   padding: 10px 12px;
-  border:1px solid #cce7d0;
+  border:1px solid #373a37;
   border-radius: 25px;
   cursor: pointer;
   box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
@@ -302,14 +302,33 @@ body {
   top: 0;
   right: 0;
   height: 20vh;
-  width: 300px;
+  width: 40%;
   align-items: center;
   justify-content: center;
   background-color: #d9c2fa;
   box-shadow: 0 40px 60px rgba(0, 0, 0, 0.2);
-  padding: 80px 0 0 20px;
+  padding: 80px 0 0 50px;
 }
 #navbar li{
   margin-bottom: 25px;
 }
+.button{
+  padding-top: 5%;
+}
+.containerr{
+  display: grid;
+  align-items: center; 
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  height: 100vb;
+  width: 100%;
+  background-position: top 10% right 10%;
+  background-size: cover;
+  padding: 0 20px;
+ }
+ 
+ img {
+   max-width: 100%;
+   max-height:100%;
+ }
 }
