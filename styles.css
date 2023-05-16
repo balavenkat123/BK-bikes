@@ -59,43 +59,43 @@ p {
 
 body {
   width: 100%;
+  overflow-x: hidden;
 }
 
-#header{
+header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 20px 80px;
-    background: #d9c2fa;
-    box-shadow: 0 5px 15px rgb(232, 190, 252);
-    z-index: 999;
-    position: sticky;
+    padding: 5px 80px;
+    background: #ccc8cc;
+    box-shadow: #000000;
+    z-index: 900;
+    position: fixed;
     top: 0;
     left: 0;
+    width: 100%;
 }
-#navbar{ 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between  ;
 }
-#navbar li{
-    list-style: none;
-    padding: 0 40px ;
-    position: relative;
-
-}
-#navbar li a{
+.navigation a{  
     text-decoration: none;
-    font-size: 16px;
+    color: #359381;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
     font-weight: 600;
     color: #1a1a1a;
     transition: 0.3s ease;
-    border-radius: 20px;
+    
 }
-#navbar li a:hover{
-    color: aqua;
-}
-.containerr{
+.navigation a:hover{
+  background: #5e5f5f;
+  color: #fff;
+  text-decoration: none;
+}.containerr{
   display: grid;
   align-items: center; 
   grid-template-columns: 1fr 1fr 1fr;
