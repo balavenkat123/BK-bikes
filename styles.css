@@ -70,7 +70,7 @@ header{
     background: #ccc8cc;
     box-shadow: #000000;
     z-index: 900;
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     width: 100%;
@@ -95,7 +95,8 @@ header{
   background: #5e5f5f;
   color: #fff;
   text-decoration: none;
-}.containerr{
+}
+.containerr{
   display: grid;
   align-items: center; 
   grid-template-columns: 1fr 1fr 1fr;
