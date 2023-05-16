@@ -293,7 +293,7 @@ body {
   font-size:13px;
   margin-bottom:0;
 }
-@media (max-width:799px){
+@media (max-width:600px){
   #navbar {
   display: flex;
   flex-direction: column;
