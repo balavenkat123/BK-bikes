@@ -5,7 +5,6 @@
   box-sizing: border-box;
   font-family: "Spartan", sans-serif;
 }
-
 html {
   scroll-behavior: smooth;
 }
@@ -93,7 +92,7 @@ header{
 }
 .navigation a:hover{
   background: #5e5f5f;
-  color: #fff;
+  color: #67f867;
   text-decoration: none;
 }
 .containerr{
