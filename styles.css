@@ -335,4 +335,16 @@ header{
  .logo{
   width: 60%;
  }
+ .maps {
+  padding-bottom: 50%;
+  position: relative;
+}
+
+.maps iframe {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
 }
